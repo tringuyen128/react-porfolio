@@ -74,7 +74,7 @@ const Projects = () => {
             style={{ height: '283px' }}
             className="img-fluid"
             src="../../assets/workdayschedule.png"
-            alt="Fitness"
+            alt="workday"
             top
           />
           <MDBCardBody>
@@ -102,7 +102,7 @@ const Projects = () => {
           <MDBCardImage
             className="img-fluid"
             src="../../assets/notetaking.png"
-            alt="Team Generator"
+            alt="Note taking"
             top
           />
           <MDBCardBody>
@@ -153,8 +153,8 @@ const Projects = () => {
           <MDBCardImage
             style={{ height: '225px' }}
             className="img-fluid"
-            src="https://user-images.githubusercontent.com/64516562/97785992-063dd480-1b6e-11eb-8040-7ca005d7830b.png"
-            alt="Bartender"
+            src="../../assets/netflix.png"
+            alt="Netflix"
             top
           />
           <MDBCardBody>
@@ -180,68 +180,19 @@ const Projects = () => {
         <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ height: '205px' }}
-            src="https://user-images.githubusercontent.com/64516562/97790062-321b8300-1b8b-11eb-8a0e-079e54b31341.png"
-            alt="Planner"
+            src="../../assets/progress.png"
+            alt="Progress"
             top
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Day Planner</MDBCardTitle>
+            <MDBCardTitle tag="h5">Progress Step</MDBCardTitle>
             <MDBCardText>
-              This is a work day plan app. It has hours sections on it so when
-              the user enters a description for each hour and save it the
-              description will stay until erased.
+              This small project uses HTML, CSS, and Javascipt to make progress
+              step with number. The buttons are used to control the progress
+              going forward or going backward using javascript
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/Collin-Hodgson/dayplanner"
-              color="primary"
-              size="md"
-            >
-              <MDBIcon icon="clone left" className="mr-1" />
-              View Project
-            </MDBBtn>
-          </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard className="border border-dark">
-          <MDBCardImage
-            src="https://user-images.githubusercontent.com/64516562/97790068-3a73be00-1b8b-11eb-94f9-459018a10c80.PNG"
-            alt="Password"
-            top
-          />
-          <MDBCardBody>
-            <MDBCardTitle tag="h5">Password Generator</MDBCardTitle>
-            <MDBCardText>
-              This app allows the user to generate a random password with
-              criteria of their choosing. This app utilizes numbers, letters,
-              and special characters.
-            </MDBCardText>
-            <MDBBtn
-              href="https://github.com/Collin-Hodgson/passwordgenerator"
-              color="primary"
-              size="md"
-            >
-              <MDBIcon icon="clone left" className="mr-1" />
-              View Project
-            </MDBBtn>
-          </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard className="border border-dark">
-          <MDBCardImage
-            style={{ height: '205px' }}
-            src="https://github.com/denismatijevic/summerlinlabs/raw/master/public/assets/Mission.png"
-            alt="Summerlin Labs"
-            top
-          />
-          <MDBCardBody>
-            <MDBCardTitle tag="h5">Summerlin Labs </MDBCardTitle>
-            <MDBCardText>
-              This is my final project for the program. A local business owner
-              tasked my group with creating a website for their health and
-              testing clinic.
-            </MDBCardText>
-            <MDBBtn
-              href="https://github.com/denismatijevic/summerlinlabs"
+              href="https://tringuyen128.github.io/progress_step/"
               color="primary"
               size="md"
             >
