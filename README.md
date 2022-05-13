@@ -1,3 +1,7 @@
+## Link to the project
+https://tringuyen128.github.io/react-porfolio/#/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
