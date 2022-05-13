@@ -2,7 +2,9 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>index</div>
+    <div className="container" style={props.style}>
+      {props.children}
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import './style.css'
 
 function Footer() {
   return (
-    <footer class="page-footer fixed-bottom font-small special-color-dark pt-4">
+    <footer class="page-footer fixed-bottom font-medium special-color-dark pt-4">
       <div class="container">
         <ul class="list-unstyled list-inline text-center">
           <li class="list-inline-item">

@@ -15,10 +15,10 @@ const Projects = () => {
   return (
     <MDBContainer className="mt-5">
       <MDBCardGroup deck className="mt-3">
-        <MDBCard className="border border-dark">
+        <MDBCard className="border border-dark" style={{ height: 'auto' }}>
           <MDBCardImage
-            style={{ width: '485px' }}
-            src="../../assets/budget.jpeg"
+            style={{ height: '350px' }}
+            src={require('../../assets/budget.jpg')}
             alt="Budget App"
             top
           />
@@ -45,7 +45,8 @@ const Projects = () => {
         <MDBCard className="border border-dark">
           <MDBCardImage
             className="img-fluid"
-            src="../../assets/news.jpeg"
+            style={{ width: '350px', height: '350px' }}
+            src={require('../../assets/news.jpeg')}
             alt="Tech News"
             top
           />
@@ -59,7 +60,7 @@ const Projects = () => {
               express-session npm package for authentication.
             </MDBCardText>
             <MDBBtn
-              href="tech-blognews.herokuapp.com/"
+              href="https://tech-blognews.herokuapp.com/"
               color="primary"
               size="md"
             >
@@ -71,9 +72,9 @@ const Projects = () => {
 
         <MDBCard className="border border-dark">
           <MDBCardImage
-            style={{ height: '283px' }}
             className="img-fluid"
-            src="../../assets/workdayschedule.png"
+            style={{ height: '350px' }}
+            src={require('../../assets/workdayschedule.png')}
             alt="workday"
             top
           />
@@ -101,7 +102,8 @@ const Projects = () => {
         <MDBCard className="border border-dark">
           <MDBCardImage
             className="img-fluid"
-            src="../../assets/notetaking.png"
+            style={{ height: '350px' }}
+            src={require('../../assets/notetaking.png')}
             alt="Note taking"
             top
           />
@@ -126,9 +128,9 @@ const Projects = () => {
 
         <MDBCard className="border border-dark">
           <MDBCardImage
-            style={{ height: '225px' }}
             className="img-fluid"
-            src="../../assets/weather.png"
+            style={{ height: '350px' }}
+            src={require('../../assets/weather.png')}
             alt="Weather"
             top
           />
@@ -151,9 +153,9 @@ const Projects = () => {
 
         <MDBCard className="border border-dark">
           <MDBCardImage
-            style={{ height: '225px' }}
             className="img-fluid"
-            src="../../assets/netflix.png"
+            style={{ height: '350px' }}
+            src={require('../../assets/netflix.png')}
             alt="Netflix"
             top
           />
@@ -166,33 +168,6 @@ const Projects = () => {
             </MDBCardText>
             <MDBBtn
               href="https://tringuyen128.github.io/Netflix_Clone_Page/"
-              color="primary"
-              size="md"
-            >
-              <MDBIcon icon="clone left" className="mr-1" />
-              View Project
-            </MDBBtn>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCardGroup>
-
-      <MDBCardGroup deck className="mt-3">
-        <MDBCard className="border border-dark">
-          <MDBCardImage
-            style={{ height: '205px' }}
-            src="../../assets/progress.png"
-            alt="Progress"
-            top
-          />
-          <MDBCardBody>
-            <MDBCardTitle tag="h5">Progress Step</MDBCardTitle>
-            <MDBCardText>
-              This small project uses HTML, CSS, and Javascipt to make progress
-              step with number. The buttons are used to control the progress
-              going forward or going backward using javascript
-            </MDBCardText>
-            <MDBBtn
-              href="https://tringuyen128.github.io/progress_step/"
               color="primary"
               size="md"
             >
